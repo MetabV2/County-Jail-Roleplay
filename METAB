@@ -1,7 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
 
 local METABGUI = Instance.new("ScreenGui")
 local METAB = Instance.new("ImageLabel")
@@ -140,7 +136,7 @@ local ImageButton = Instance.new("ImageButton")
 --Properties:
 
 METABGUI.Name = "METAB GUI "
-METABGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+METABGUI.Parent = game.CoreGui
 METABGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 METABGUI.ResetOnSpawn = false
 
